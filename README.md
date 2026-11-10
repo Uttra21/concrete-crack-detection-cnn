@@ -91,3 +91,28 @@ This experiment demonstrates how class weighting can influence model performance
 ## Disclaimer
 
 This project was developed for academic and educational purposes. Its reported performance is based on the selected experimental dataset and should not be interpreted as a guarantee of real-world industrial performance.
+
+## Results and Visualizations
+
+### 1. Dataset Samples
+
+Examples of concrete surface images from both classes.
+
+![Dataset Samples](results/dataset_samples.png)
+
+### 2. Precision-Recall Curve
+
+Comparison of the baseline CNN and weighted-loss model.
+
+- Baseline Average Precision: 0.9999
+- Weighted Loss Average Precision: 0.9995
+
+![Precision Recall Curve](results/precision_recall_curve.png)
+
+## Key Findings
+
+- Both models achieved high classification performance on the selected experimental dataset.
+- Weighted loss improved crack detection recall from 99.33% to 99.67%.
+- The baseline model achieved slightly higher overall accuracy and average precision.
+
+
